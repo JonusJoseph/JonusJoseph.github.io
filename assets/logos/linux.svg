@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180">
+<rect width="320" height="180" rx="18" fill="#fff"/>
+<g transform="translate(24 28)">
+ <ellipse cx="58" cy="75" rx="38" ry="50" fill="#111"/>
+ <ellipse cx="58" cy="48" rx="29" ry="25" fill="#222"/>
+ <circle cx="47" cy="47" r="8" fill="#fff"/><circle cx="69" cy="47" r="8" fill="#fff"/>
+ <circle cx="48" cy="48" r="3"/><circle cx="68" cy="48" r="3"/>
+ <path d="M50 59 Q58 67 66 59 L58 73 Z" fill="#f2a900"/>
+ <path d="M22 98 Q58 118 94 98 L84 124 Q58 138 32 124 Z" fill="#f2a900"/>
+ <path d="M30 28 Q58 2 86 28" fill="none" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+</g>
+<text x="125" y="103" font-family="Arial,Helvetica,sans-serif" font-size="46" font-weight="700" fill="#111">Linux</text>
+</svg>

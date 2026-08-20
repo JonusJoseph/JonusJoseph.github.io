@@ -79,7 +79,7 @@ const customIcons={
   "SAN":"https://cdn.simpleicons.org/linux",
   "Bacula":"https://cdn.simpleicons.org/linux",
   "Rsync":"https://cdn.simpleicons.org/linux",
-  "LAMP":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUaTivquxEbYJ1QGfltfofdh0b2NHT1AlY0NOFgyX5SA&s=10",
+  "LAMP":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLeRCtZifGRL7_jMm3nAL6zMnYP0n-G1TEwuMA2XAZZQ&s=10",
   "Web APIs":"https://krify.com/wp-content/uploads/2021/02/web-api.png",
   "CSS":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRZZb_t-jO4w-k1hKkLO5esuYM_HDOilnhoCUIbBB5LQ&s=10",
   "REST API":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP2HIg3Yyqjr-ZqahEtUaGQ1B9CRQYw1DpU88RiPmyvA&s=10",

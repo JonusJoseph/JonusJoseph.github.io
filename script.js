@@ -38,7 +38,7 @@ const skills={
 ["MySQL","mysql"],["PostgreSQL","postgresql"],["Oracle","oracle"],["MongoDB","mongodb"],["Kafka","apachekafka"],["Redis","redis"],["Memcached","memcached"],["SAP HANA","sap"]
 ],
 "Web / Full Stack":[
-["HTML","html5"],["CSS","css3"],["JavaScript","javascript"],["PHP","php"],["Django","django"],["Flask","flask"],["LAMP",""],["Web APIs",""]
+["HTML","html5"],["CSS","css3"],["JavaScript","javascript"],["PHP","php"],["Django","django"],["Flask","flask"],["LAMP",""],["Web APIs",""],["FastAPI",""]
 ],
 "Storage / Backup":[
 ["NFS",""],["Samba","samba"],["FTP","filezilla"],["SAN",""],["RAID",""],["LVM","linux"],["EXT4","linux"],["XFS","linux"],["Rsync",""],["Bacula",""]
@@ -61,6 +61,7 @@ const slugAliases={googlecloud:"googlecloud",githubactions:"githubactions",apach
 
 // User-supplied product / technology logos. These override the generic Simple Icons lookup.
 const customIcons={
+  "FastAPI":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoDkKlU-Zr_J1Rj9Vlh0-2gO0PyS8-OKnrNxtYXtKAlw&s=10"
   "OData":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsPS9v3okofmg6a6UJT1eZY9gg1Lzam9fz9dNYOIjD3Q&s=10",
   "AWS":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd9ep2rTs5DJ1yh7xeY92Zw8ireBYy5BuJnOYoXqnvoQ&s=10",
   "Azure":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCV_Fg-XL5gzS9Bc4ID1nmMMLo89bU0_7V4n2sgp-RYQ&s=10",

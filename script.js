@@ -2,6 +2,9 @@ const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
 
 const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("visible")}),{threshold:.1});
 $$(".reveal").forEach(el=>observer.observe(el));
+// Safety net: if anything (slow devices, missed events, edge-case timing) leaves reveal
+// elements stuck invisible, force them visible after 2.5s so content is never lost.
+setTimeout(()=>$$(".reveal:not(.visible)").forEach(el=>el.classList.add("visible")),2500);
 
 $("#menuBtn").addEventListener("click",()=>document.querySelector(".nav nav").classList.toggle("mobile-open"));
 
